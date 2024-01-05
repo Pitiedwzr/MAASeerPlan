@@ -1,0 +1,47 @@
+{
+  "CollectGiftcard": {
+    "next": [
+      "Collect_Button",
+      "Friends_Button",
+      "Communicate_Button"
+    ]
+  },
+  "Communicate_Button": {
+    "is_sub": true,
+    "recognition": "TemplateMatch",
+    "template": "CollectGiftcard/Communicate.png",
+    "threshold": 0.95,
+    "roi": [
+      1140,
+      21,
+      46,
+      33
+    ],
+    "action": "Click"
+  },
+  "Friends_Button": {
+    "is_sub": true,
+    "recognition": "TemplateMatch",
+    "template": "CollectGiftcard/Friends.png",
+    "threshold": 0.95,
+    "roi": [
+      1219,
+      163,
+      61,
+      88
+    ],
+    "action": "Click"
+  },
+  "Collect_Button": {
+    "recognition": "TemplateMatch",
+    "template": "CollectGiftcard/CollectGiftcard.png",
+    "threshold": 0.95,
+    "roi": [
+      899,
+      607,
+      316,
+      43
+    ],
+    "action": "Click"
+  }
+}
