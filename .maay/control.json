@@ -1,0 +1,8 @@
+﻿{
+  "entry": [
+    {
+      "name": "收集礼品卡",
+      "task": "CollectGiftcard"
+    }
+  ]
+}

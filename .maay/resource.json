@@ -1,0 +1,16 @@
+﻿{
+  "resource": {
+    "default": {
+      "name": "赛尔计划",
+      "path": "@default"
+    }
+  },
+  "app": {
+    "start": "com.taomee.seerplan.taomee",
+    "stop": "com.taomee.seerplan.taomee/com.taomee.syc.lib.activity.TaomeeActivity",
+    "orientation": "landscape",
+    "size": {
+      "short": 720
+    }
+  }
+}
